@@ -1,0 +1,329 @@
+body {
+    margin: 0;
+}
+
+.logoMeetic {
+    padding-top: 1%;
+    padding-left: 1%;
+    height: 30px;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.right {
+    padding-right: 20px;
+}
+
+.caroussel {
+    margin-top: 5%;
+    margin-left: 30%;
+}
+
+.aucune {
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.paddingButton {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 10px;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    background-color: rgb(78, 78, 233);
+    color: white;
+    border: 0;
+    outline: none;
+}
+
+.supp {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10%;
+}
+
+.img {
+    margin-left: 34%;
+}
+
+.espace {
+    padding-right: 10%;
+}
+
+.deco {
+    padding: 15px 58px;
+}
+
+.pointeur {
+    cursor: pointer;
+}
+
+.edit {
+    background-color: gray;
+}
+
+.image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+}
+
+.sectionDeux {
+    margin-left: 2%;
+    position: relative;
+    top: -160px;
+    width: 60%;
+    background-color: white;
+    padding-top: 0.5%;
+    padding-bottom: 2%;
+}
+
+.nom {
+    margin-left: 9.2%;
+}
+
+.prenom {
+    margin-left: 8.5%;
+}
+
+.ville {
+    margin-left: 16.1%;
+}
+
+.email {
+    margin-left: 17%;
+}
+
+.mdp {
+    margin-left: 3%;
+}
+
+.mdpDeux {
+    margin-left: 1.5%;
+}
+
+.avatar {
+    margin-left: 14.5%;
+}
+
+.paddingDeux {
+    padding-left: 2%;
+}
+
+.ligne {
+    border-bottom: 1px solid gray;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.section {
+    background-color: white;
+    width: 30%;
+    padding-left: 2%;
+    padding-top: 0.5%;
+    padding-bottom: 2%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.noDisplay {
+    display: inline-block;
+}
+
+.headerList {
+    text-align: right;
+    position: relative;
+    top: -55px;
+    margin-right: 2%;
+}
+
+.paddingInfo {
+    margin-left: -11%;
+}
+
+.info {
+    display: inline-block;
+}
+
+.infoNom {
+    padding-right: 20px;
+    margin-bottom: -5%;
+    list-style: none;
+}
+
+.name {
+    padding-left: 15%;
+}
+
+.age {
+    padding-left: 19%;
+}
+
+.genre {
+    padding-left: 12%;
+}
+
+.location {
+    padding-left: 3.5%;
+}
+
+.mail {
+    padding-left: 16%;
+}
+
+
+.click {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid black;
+    transition: 0.5s background-color, color;
+}
+
+.click:hover {
+    background-color: #19bb19;
+    color: white;
+}
+
+#form {
+    margin-top: 5%;
+    text-align: center;
+    margin-top: -3%;
+}
+
+.none {
+    display: none;
+}
+
+.paddingMain {
+    padding-bottom: 230px;
+}
+
+footer {
+    text-align: right;
+    margin-top: 0;
+}
+
+.connexion {
+    background: rgba(255,255,255,.9);
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+.article {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    margin-bottom: 5%;
+}
+
+.grey {
+    background-color: #ebecf0;
+}
+
+#connexion {
+    padding-left: 15px;
+    padding-top : 5px;
+    margin-bottom: 10%;
+}
+
+input.padding {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.button {
+    margin-top: 15px;
+    margin-left: 10%;
+    border-radius: 2em;
+    color: white;
+    border-width: 0;
+    margin-bottom: 40px;
+    padding: 10px;
+    width: 75%;
+    background-color: #19bb19;
+    outline: none;
+}
+
+.outline {
+    text-decoration: underline;
+}
+
+.spanInscription {
+    margin-left: 12%;
+}
+
+.formConnexion {
+    margin-bottom: 20px;
+}
+
+.input_width {
+    width: 90%;
+    border-radius: .5rem;
+    border-width: 0;
+    box-shadow: 0 0 0 2px #d9dde5;
+    outline: none;
+}
+
+.input_width:focus {
+    box-shadow: 0 0 0 2px rgb(218, 81, 127);
+}
+
+label.margin {
+    margin-bottom: -7px;
+}
+
+.FormTransfo, select {
+    border: 0;
+    border-radius: 2em;
+    margin-bottom: 1%;
+    width: 10%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #19bb19;
+    outline: none;
+    color: white;
+}
+
+select {
+    width: 14%;
+    color: white;
+}
+
+input::placeholder {
+    color: white;
+}
+
+.titreMeetic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    margin-bottom: -3%;
+}
+
+.imageMain {
+    background-image: url("./assets/meetic1.webp");
+    margin-top: -3%;
+}
